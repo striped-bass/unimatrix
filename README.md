@@ -184,6 +184,7 @@ CHARACTER SETS
   G   Uppercase Greek alphabet
   k   Japanese katakana (half-width)
   m   Default 'Matrix' set, equal to 'knnssss'
+  N   NieR Reincarnation Angelic (requires 'Angelic' font)**
   n   Numbers 0-9
   o   'Old' style non-unicode set, like cmatrix. Equal to 'AaSn'
   p   Klingon pIqaD (requires 'Horta' family font)*
@@ -205,6 +206,12 @@ CHARACTER SETS
     is enough. The terminal will fall back to it for the Klingon, meaning that
     you don't have to select it in your terminal settings. 'Horta' seems not to
     work in Konsole. Fonts may need to be set manually as fallbacks in
+    .Xresources for older terminals, such as urxvt and xterm.
+
+  **With most modern Linux terminals (gnome-terminal, konsole, lxterminal,
+    xfce4-terminal, mate-terminal) simply having the font installed system-wide
+    is enough. The terminal will fall back to it for the Angelic, meaning that
+    you don't have to select the font in your terminal settings. Fonts may need to be set manually as fallbacks in
     .Xresources for older terminals, such as urxvt and xterm.
 
 KEYBOARD CONTROL
@@ -244,3 +251,6 @@ EXAMPLES
 Unimatrix is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 Unimatrix is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License at <http://www.gnu.org/licenses/> for more details.
+
+## Thanks to
+- https://github.com/NMeliksah/NierAngelicTMP (Angelic font)
